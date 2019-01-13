@@ -1,0 +1,39 @@
+.date{
+    position: fixed;
+    top: 200px;
+    left: 200px;
+
+}
+.kms{
+    position: fixed;
+    top: 200px;
+    left: 400px;
+
+}
+.button {
+    background-color: #5c6bc5;
+    border: none;
+    color: white;
+    padding: 6px 32px;
+    position: fixed;
+    top: 200px;
+    left: 650px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+table {
+    margin-top: 100px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color:wheat;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color:#f5f5f5;}

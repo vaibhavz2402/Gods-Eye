@@ -1,0 +1,54 @@
+<div class="main-wrapper">
+    <div class="side-menu-pos">
+        <span class="side-menu">Home</span>
+        <br/>
+        <br/>
+        <div class="dropdown">
+            <span class="side-menu">Registered Cars</span>
+            <div class="dropdown-content">
+                <p>{{data.carnm}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="v1"></div>
+    <div class="middle-car">
+        <h2>Vehicle Name</h2>
+        <button class="button">Add New Vehicle</button>
+        <div class="rectangle">
+            <div class="rect-inside">
+                <p style="font-weight:bolder;">Last Recorded Details</p>
+                <table>
+                    <tc>
+                        <th>Field</th>
+                        <th>Details</th>
+                    </tc>
+                    <tr>
+                        <td>License Plate</td>
+                        <td>{{data.carnm}}</td>
+                    </tr>
+                    <tr>
+                        <td>Date</td>
+                        <td>13/01/2019</td>
+                    </tr>
+                    <tr>
+                        <td>Latitude</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Longitude</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <!--username-->
+    <div class="right-side">
+        <p style="font-size:24px;">{{data.ownernm}}</p>
+        <p>Memeber since: 2018</p>
+        <br/><br/>
+        <p style="color:blue">Last Seen</p>
+        <p>Driving<p style="font-weight:bold">{{data.carnm}}</p></p>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+.middle{
+    padding: 200px;
+    background-image: url(/files/traffic.jpeg);
+    height: 100%;
+
+
+}
+.card-jobs {
+    background-color:#F7F7F7;
+    box-shadow: 2px 2px;
+}
+.secred{
+    background-color: #5C6BC0  ;
+    color: white;
+}

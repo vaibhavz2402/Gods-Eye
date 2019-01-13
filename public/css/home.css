@@ -1,0 +1,88 @@
+
+.side-menu{
+    font-weight: bolder;
+    font-size: 24px;
+    padding-top: 20px;
+    top: 50px;
+    position: absolute;
+}
+.main-wrapper{
+    background-color: #ebebe0;
+    padding-bottom: 200px;
+    padding-top: 20px;
+}
+.vl {
+    border-left: 6px solid black;
+    height: 500px;
+    position: absolute;
+    left: 100px;
+}
+.button{
+    background-color: blue;
+    border: none;
+    position: absolute;
+    left: 450px;
+    top: 0px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.rect-inside{
+    padding: 10px 15px 10px 15px;
+}
+.side-menu-pos{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+.middle-car{
+    position: relative;
+    left: 350px;
+}
+.rectangle {
+    height: 400px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.right-side{
+    position: absolute;
+    top: 200px;
+    right: 20px;
+}
